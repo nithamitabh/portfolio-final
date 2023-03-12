@@ -17,8 +17,9 @@ function App() {
       <Services/>
       <Work/>
       <Contact/>
-      <div className='h-[4000px]'></div>
+      <div className='md:h-[4000px] sm:h-[4000px] lg:h-0'></div>
     </div>
+    
     
   );
 }

@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-8 lg:items-center lg:gap-x-12 lg:flex-row'>
           <div>
-            <div className='flex-1 text-center font-secondary lg:text-left'><motion.h1 variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[80px]'>Amitabh <span>Kumar</span></motion.h1></div>
+            <div className='flex-1 text-center font-secondary lg:text-left'><motion.h1 variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[80px] '>Amitabh <span>Kumar</span></motion.h1></div>
             <motion.div variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold text-center uppercase leading - [1] lg:text-left'><span className='mr-4 text-white'>I am a</span>
               <TypeAnimation sequence={[
                 'Web Developer',
