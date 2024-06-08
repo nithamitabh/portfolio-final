@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variant'
+import { Link } from 'react-scroll'
 
 const Banner = () => {
   return (
@@ -25,8 +26,8 @@ const Banner = () => {
                 2000
               ]} speed={50} className='text-accent' wrapper='span' repeat={Infinity} /></motion.div>
             <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dignissimos voluptas, culpa harum commodi tem</motion.p>
-            <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'><button className='btn btn-lg'>Contact me</button>
-              <a href="#" className='text-gradient btn-link'>My Portfolio</a>
+            <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'><Link to='contact'><button className='btn btn-lg'> Contact me</button></Link>
+              <a href="https://drive.google.com/file/d/1x22SwAo4-0WnjJIEJmakUM-XbD3_60CC/view?usp=sharing" className='text-gradient btn-link'>My Portfolio</a>
             </motion.div>
             {/* Social Icons */}
             <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex text-20 gap-x-6 max-w-max mx-auto lg:mx-0'>

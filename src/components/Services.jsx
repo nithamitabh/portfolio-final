@@ -5,20 +5,20 @@ const education = [
   {
     name: 'B.Tech',
     institute: 'NIT Hamirpur',
-    description: 'Lorem njdfsnjkfkfskafjfj sdfjkfjdshkjdf dfs fdsjdfjkdf df dfjfkjnfkjf fbf kj dfbfbdfjbdj,f ddffdbdf fdb jfdbhjfdbhvd bdbdhdhi hd bdjhd idehdbhjew ad hdbdeguewgewg ndjhdu',
+    description: 'I am currently pursuing my Dual Degree in Electronics and Communication Engineering from NIT Hamirpur. I am in 2nd year of my Dual Degree Program.',
     link: 'https://www.nith.ac.in/',
   },
   {
     name: '12th',
     institute: 'Jeevandeep Public School',
-    description: 'Lorem njdfsnjkfkfskafjfj sdfjkfjdshkjdf dfs fdsjdfjkdf df dfjfkjnfkjf fbf kj dfbfbdfjbdj,f ddffdbdf fdb jfdbhjfdbhvd bdbdhdhi hd bdjhd idehdbhjew ad hdbdeguewgewg ndjhdu',
-    link: 'https://www.jps.in/',
+    description: 'I have done my 12th from Jeevandeep Public School Varanasi. I have scored 95% in my 12th Board Exam.I am also highest scorer in my school in 12th Board Exam.',
+    link: 'https://jpsvaranasi.in/',
   },
   {
     name: '10th',
     institute: 'Jeevandeep Public School',
-    description: 'Lorem njdfsnjkfkfskafjfj sdfjkfjdshkjdf dfs fdsjdfjkdf df dfjfkjnfkjf fbf kj dfbfbdfjbdj,f ddffdbdf fdb jfdbhjfdbhvd bdbdhdhi h',
-    link: 'https://www.nith.ac.in/',
+    description: 'I have done my 10th from Jeevandeep Public School Varanasi. I have scored 90% in my 10th Board Exam.',
+    link: 'https://jpsvaranasi.in/',
   },
 
 ]

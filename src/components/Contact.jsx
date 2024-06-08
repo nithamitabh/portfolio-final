@@ -27,7 +27,7 @@ const Contact = () => {
             <input type="email" className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all placeholder:text-white' placeholder='Enter email ' />
             <input type="text" className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all placeholder:text-white' placeholder='Enter name' />
             <textarea className='bg-transparent border-b py-12 outline-none w-full focus:border-accent transition-all placeholder:text-white resize-none mb-12' placeholder='your message ' ></textarea>
-            <button className='btn btn-lg'>Send Feedback</button>
+        <button className='btn btn-lg'>Send Feedback</button>
           </motion.form>
         </div>
       </div>
